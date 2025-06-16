@@ -1,0 +1,37 @@
+# 静态网页视频播放代码
+
+以下是一个简单的静态网页代码示例，用于播放指定地址的视频：
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频播放页面</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay>
+        <source src="http://ys-l.ysepan.com/wap/asdzzf001/NkG9D4F2D94MjG6Vb9/Bc5fS7Jq4kDeTSa49s2HBfa3gA1je3/%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95.mp4" type="video/mp4">
+        您的浏览器不支持 HTML5 视频标签。
+    </video>
+</body>
+</html>
